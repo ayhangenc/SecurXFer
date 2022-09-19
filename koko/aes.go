@@ -1,5 +1,7 @@
 package main
 
+/*
+
 import (
 	"bufio"
 	"crypto/aes"
@@ -23,8 +25,8 @@ import (
 *		using the Golang standard library AES implementation using the Cipher Feedback mode of encryption (CFB).
 *		DISCLAIMER: There is no way that this a secure implementation of AES. This is only for my personal learning.
 *		So help you God if this ends up in some commercial application.
- */
-
+*/
+/*
 func main() {
 	cipherKey := []byte("asuperstrong32bitpasswordgohere!") //32 bit key for AES-256
 	//cipherKey := []byte("asuperstrong24bitpasswor") //24 bit key for AES-192
@@ -83,7 +85,8 @@ func main() {
  *	RETURNS			:
  *		string encoded	: String containing the encoded user input
  *		error err	: Error message
- */
+*/
+/*
 func encrypt(key []byte, message string) (encoded string, err error) {
 	//Create byte array from the input string
 	plainText := []byte(message)
@@ -131,7 +134,8 @@ func encrypt(key []byte, message string) (encoded string, err error) {
  *	RETURNS			:
  *		string decoded	: String containing the decrypted equivalent of secure
  *		error err	: Error message
- */
+*/
+/*
 func decrypt(key []byte, secure string) (decoded string, err error) {
 	//Remove base64 encoding:
 	cipherText, err := base64.RawStdEncoding.DecodeString(secure)
@@ -164,3 +168,5 @@ func decrypt(key []byte, secure string) (decoded string, err error) {
 
 	return string(cipherText), err
 }
+
+*/
