@@ -5,11 +5,11 @@ secure message trasfer client/server mode // very beginning of a personal learni
 baby steps:
 
 
-1.Parameter parsing
+1. Parameter parsing -kind of OK
 
-2. Message load (from file/command line parameter/typing etc)
+2. Message load (from file/command line parameter/typing etc) - kb input for start
 
-3. Encryption - optional
+3. Encryption - optional -aes 256 trials...
 
 4. Header (Lenght of msg, encryption status, checksum)
 
