@@ -5,7 +5,7 @@ secure message trasfer client/server mode // very beginning of a personal learni
 baby steps:
 
 
-1.Parameter parsing
+1. Parameter parsing
 
 2. Message load (from file/command line parameter/typing etc)
 
