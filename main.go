@@ -38,7 +38,7 @@ var (
 	//cipherKey128 = []byte("_08_bit__16_bit_") //16-bit key for AES-128
 
 	mode      = flag.String("mode", "server", "server to listen, client to send")
-	proto     = flag.String("proto", "TCP", "Transmission Protocol between peers (tcp -Default- or udp)")
+	proto     = flag.String("proto", "tcp", "Transmission Protocol between peers (tcp -Default- or udp)")
 	enc       = flag.Int("enc", 0, "Encryption enable (TRUE:1 or FALSE:0)")
 	ipAddress = flag.String("ipAddress", "", "IP Address (A.B.C.D format in decimal")
 	port      = flag.String("port", "5000", "IP port number - Default 5000")
