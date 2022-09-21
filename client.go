@@ -69,6 +69,7 @@ func client(proto string, enc int, ipAddress string, port string, msg string) {
 	_, err = conn.Write(fullMessage2Send)
 	checkError(err)
 	fmt.Println("Message sent!...")
+
 }
 
 /*

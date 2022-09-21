@@ -27,6 +27,7 @@ import (
 )
 
 func handleConnection(conn net.Conn) {
+
 	input := make([]byte, 1024)
 	nRead, err := conn.Read(input[0:])
 	checkError(err)

@@ -67,6 +67,5 @@ func main() {
 		for {
 			client(*proto, *enc, *ipAddress, *port, *msg)
 		}
-
 	}
 }
